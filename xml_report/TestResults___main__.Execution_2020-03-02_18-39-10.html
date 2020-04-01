@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Unittest Results</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <h2 class="text-capitalize">Unittest Results</h2>
+                <p class='attribute'><strong>Start Time: </strong>2020-03-02 18:39:10</p>
+                <p class='attribute'><strong>Duration: </strong>44 ms</p>
+                <p class='attribute'><strong>Summary: </strong>Total: 3, Pass: 2, Fail: 1</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-10 col-md-10">
+                <table class='table table-hover table-responsive'>
+                    <thead>
+                        <tr>
+                            <th>__main__.Execution</th>
+                            <th>Status</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class='danger'>
+                            <td class="col-xs-10">test_CountValidationTesting</td>
+                            <td class="col-xs-1">
+                                <span class="label label-danger" style="display:block;width:40px;">Fail</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td colspan="3">
+
+                                <table class='table table-hover table-responsive'>
+                                    <tbody>
+                                        <tr class='danger'>
+                                            <td class="col-xs-10">test_CountValidationTesting (i=0)</td>
+                                            <td class="col-xs-1">
+                                                <span class="label label-danger" style="display:block;width:40px;">Fail</span>
+                                            </td>
+                                            <td class="col-xs-1">
+                                                <button class="btn btn-default btn-xs">View</button>
+                                            </td>
+                                        </tr>
+                                        <tr style="display:none;">
+                                            <td class="col-xs-9" colspan="3"><p style="color:maroon;">AssertionError: 22227 != 22220 : Total number of records in map.contact_main table.:22227</p><p style="color:maroon;">Traceback (most recent call last):
+  File "C:/Users/kabharathi/Desktop/MDM/New folder (2)/MDM Automation/Execution.py", line 26, in test_CountValidationTesting
+    self.assertEqual(l2[i], l1[i], Testcase[i]+':'+str(l2[i]))
+AssertionError: 22227 != 22220 : Total number of records in map.contact_main table.:22227
+</p>
+                                            </td>
+                                        </tr>
+                                        
+                                        <tr class='danger'>
+                                            <td class="col-xs-10">test_CountValidationTesting (i=1)</td>
+                                            <td class="col-xs-1">
+                                                <span class="label label-danger" style="display:block;width:40px;">Fail</span>
+                                            </td>
+                                            <td class="col-xs-1">
+                                                <button class="btn btn-default btn-xs">View</button>
+                                            </td>
+                                        </tr>
+                                        <tr style="display:none;">
+                                            <td class="col-xs-9" colspan="3"><p style="color:maroon;">AssertionError: 22227 != 22220 : Total number of records in  map.contact_email:22227</p><p style="color:maroon;">Traceback (most recent call last):
+  File "C:/Users/kabharathi/Desktop/MDM/New folder (2)/MDM Automation/Execution.py", line 26, in test_CountValidationTesting
+    self.assertEqual(l2[i], l1[i], Testcase[i]+':'+str(l2[i]))
+AssertionError: 22227 != 22220 : Total number of records in  map.contact_email:22227
+</p>
+                                            </td>
+                                        </tr>
+                                        
+                                        <tr class='danger'>
+                                            <td class="col-xs-10">test_CountValidationTesting (i=2)</td>
+                                            <td class="col-xs-1">
+                                                <span class="label label-danger" style="display:block;width:40px;">Fail</span>
+                                            </td>
+                                            <td class="col-xs-1">
+                                                <button class="btn btn-default btn-xs">View</button>
+                                            </td>
+                                        </tr>
+                                        <tr style="display:none;">
+                                            <td class="col-xs-9" colspan="3"><p style="color:maroon;">AssertionError: 22213 != 22220 : Total number of records in  map.contact_relationship:22213</p><p style="color:maroon;">Traceback (most recent call last):
+  File "C:/Users/kabharathi/Desktop/MDM/New folder (2)/MDM Automation/Execution.py", line 26, in test_CountValidationTesting
+    self.assertEqual(l2[i], l1[i], Testcase[i]+':'+str(l2[i]))
+AssertionError: 22213 != 22220 : Total number of records in  map.contact_relationship:22213
+</p>
+                                            </td>
+                                        </tr>
+                                        
+                                        <tr class='danger'>
+                                            <td class="col-xs-10">test_CountValidationTesting (i=3)</td>
+                                            <td class="col-xs-1">
+                                                <span class="label label-danger" style="display:block;width:40px;">Fail</span>
+                                            </td>
+                                            <td class="col-xs-1">
+                                                <button class="btn btn-default btn-xs">View</button>
+                                            </td>
+                                        </tr>
+                                        <tr style="display:none;">
+                                            <td class="col-xs-9" colspan="3"><p style="color:maroon;">AssertionError: 2285 != 22220 : Total number of records in  map.contact_job:2285</p><p style="color:maroon;">Traceback (most recent call last):
+  File "C:/Users/kabharathi/Desktop/MDM/New folder (2)/MDM Automation/Execution.py", line 26, in test_CountValidationTesting
+    self.assertEqual(l2[i], l1[i], Testcase[i]+':'+str(l2[i]))
+AssertionError: 2285 != 22220 : Total number of records in  map.contact_job:2285
+</p>
+                                            </td>
+                                        </tr>
+                                        
+                                        <tr class='danger'>
+                                            <td class="col-xs-10">test_CountValidationTesting (i=4)</td>
+                                            <td class="col-xs-1">
+                                                <span class="label label-danger" style="display:block;width:40px;">Fail</span>
+                                            </td>
+                                            <td class="col-xs-1">
+                                                <button class="btn btn-default btn-xs">View</button>
+                                            </td>
+                                        </tr>
+                                        <tr style="display:none;">
+                                            <td class="col-xs-9" colspan="3"><p style="color:maroon;">AssertionError: 3885 != 22220 : Total number of records in  map.contact_address:3885</p><p style="color:maroon;">Traceback (most recent call last):
+  File "C:/Users/kabharathi/Desktop/MDM/New folder (2)/MDM Automation/Execution.py", line 26, in test_CountValidationTesting
+    self.assertEqual(l2[i], l1[i], Testcase[i]+':'+str(l2[i]))
+AssertionError: 3885 != 22220 : Total number of records in  map.contact_address:3885
+</p>
+                                            </td>
+                                        </tr>
+                                        
+                                        <tr class='danger'>
+                                            <td class="col-xs-10">test_CountValidationTesting (i=5)</td>
+                                            <td class="col-xs-1">
+                                                <span class="label label-danger" style="display:block;width:40px;">Fail</span>
+                                            </td>
+                                            <td class="col-xs-1">
+                                                <button class="btn btn-default btn-xs">View</button>
+                                            </td>
+                                        </tr>
+                                        <tr style="display:none;">
+                                            <td class="col-xs-9" colspan="3"><p style="color:maroon;">AssertionError: 14656 != 22220 : Total number of records in  map.contact_phone:14656</p><p style="color:maroon;">Traceback (most recent call last):
+  File "C:/Users/kabharathi/Desktop/MDM/New folder (2)/MDM Automation/Execution.py", line 26, in test_CountValidationTesting
+    self.assertEqual(l2[i], l1[i], Testcase[i]+':'+str(l2[i]))
+AssertionError: 14656 != 22220 : Total number of records in  map.contact_phone:14656
+</p>
+                                            </td>
+                                        </tr>
+                                        
+                                        <tr class='danger'>
+                                            <td class="col-xs-10">test_CountValidationTesting (i=6)</td>
+                                            <td class="col-xs-1">
+                                                <span class="label label-danger" style="display:block;width:40px;">Fail</span>
+                                            </td>
+                                            <td class="col-xs-1">
+                                                <button class="btn btn-default btn-xs">View</button>
+                                            </td>
+                                        </tr>
+                                        <tr style="display:none;">
+                                            <td class="col-xs-9" colspan="3"><p style="color:maroon;">AssertionError: 18 != 22220 : Total number of records in  map.contact_Education:18</p><p style="color:maroon;">Traceback (most recent call last):
+  File "C:/Users/kabharathi/Desktop/MDM/New folder (2)/MDM Automation/Execution.py", line 26, in test_CountValidationTesting
+    self.assertEqual(l2[i], l1[i], Testcase[i]+':'+str(l2[i]))
+AssertionError: 18 != 22220 : Total number of records in  map.contact_Education:18
+</p>
+                                            </td>
+                                        </tr>
+                                        
+                                        <tr class='danger'>
+                                            <td class="col-xs-10">test_CountValidationTesting (i=7)</td>
+                                            <td class="col-xs-1">
+                                                <span class="label label-danger" style="display:block;width:40px;">Fail</span>
+                                            </td>
+                                            <td class="col-xs-1">
+                                                <button class="btn btn-default btn-xs">View</button>
+                                            </td>
+                                        </tr>
+                                        <tr style="display:none;">
+                                            <td class="col-xs-9" colspan="3"><p style="color:maroon;">AssertionError: 0 != 22220 : Total number of records in  map.contact_links :0</p><p style="color:maroon;">Traceback (most recent call last):
+  File "C:/Users/kabharathi/Desktop/MDM/New folder (2)/MDM Automation/Execution.py", line 26, in test_CountValidationTesting
+    self.assertEqual(l2[i], l1[i], Testcase[i]+':'+str(l2[i]))
+AssertionError: 0 != 22220 : Total number of records in  map.contact_links :0
+</p>
+                                            </td>
+                                        </tr>
+                                        
+                                        <tr class='danger'>
+                                            <td class="col-xs-10">test_CountValidationTesting (i=8)</td>
+                                            <td class="col-xs-1">
+                                                <span class="label label-danger" style="display:block;width:40px;">Fail</span>
+                                            </td>
+                                            <td class="col-xs-1">
+                                                <button class="btn btn-default btn-xs">View</button>
+                                            </td>
+                                        </tr>
+                                        <tr style="display:none;">
+                                            <td class="col-xs-9" colspan="3"><p style="color:maroon;">AssertionError: 24 != 22220 : Total number of records in  map.contact_board:24</p><p style="color:maroon;">Traceback (most recent call last):
+  File "C:/Users/kabharathi/Desktop/MDM/New folder (2)/MDM Automation/Execution.py", line 26, in test_CountValidationTesting
+    self.assertEqual(l2[i], l1[i], Testcase[i]+':'+str(l2[i]))
+AssertionError: 24 != 22220 : Total number of records in  map.contact_board:24
+</p>
+                                            </td>
+                                        </tr>
+                                        
+                                        <tr class='danger'>
+                                            <td class="col-xs-10">test_CountValidationTesting (i=9)</td>
+                                            <td class="col-xs-1">
+                                                <span class="label label-danger" style="display:block;width:40px;">Fail</span>
+                                            </td>
+                                            <td class="col-xs-1">
+                                                <button class="btn btn-default btn-xs">View</button>
+                                            </td>
+                                        </tr>
+                                        <tr style="display:none;">
+                                            <td class="col-xs-9" colspan="3"><p style="color:maroon;">AssertionError: 3885 != 22220 : Total number of records in  map.contact_address:3885</p><p style="color:maroon;">Traceback (most recent call last):
+  File "C:/Users/kabharathi/Desktop/MDM/New folder (2)/MDM Automation/Execution.py", line 26, in test_CountValidationTesting
+    self.assertEqual(l2[i], l1[i], Testcase[i]+':'+str(l2[i]))
+AssertionError: 3885 != 22220 : Total number of records in  map.contact_address:3885
+</p>
+                                            </td>
+                                        </tr>
+                                        
+                                        <tr class='danger'>
+                                            <td class="col-xs-10">test_CountValidationTesting (i=10)</td>
+                                            <td class="col-xs-1">
+                                                <span class="label label-danger" style="display:block;width:40px;">Fail</span>
+                                            </td>
+                                            <td class="col-xs-1">
+                                                <button class="btn btn-default btn-xs">View</button>
+                                            </td>
+                                        </tr>
+                                        <tr style="display:none;">
+                                            <td class="col-xs-9" colspan="3"><p style="color:maroon;">AssertionError: 22227 != 22220 : Total number of records in  map.contact_flag :22227</p><p style="color:maroon;">Traceback (most recent call last):
+  File "C:/Users/kabharathi/Desktop/MDM/New folder (2)/MDM Automation/Execution.py", line 26, in test_CountValidationTesting
+    self.assertEqual(l2[i], l1[i], Testcase[i]+':'+str(l2[i]))
+AssertionError: 22227 != 22220 : Total number of records in  map.contact_flag :22227
+</p>
+                                            </td>
+                                        </tr>
+                                        
+                                        <tr class='danger'>
+                                            <td class="col-xs-10">test_CountValidationTesting (i=11)</td>
+                                            <td class="col-xs-1">
+                                                <span class="label label-danger" style="display:block;width:40px;">Fail</span>
+                                            </td>
+                                            <td class="col-xs-1">
+                                                <button class="btn btn-default btn-xs">View</button>
+                                            </td>
+                                        </tr>
+                                        <tr style="display:none;">
+                                            <td class="col-xs-9" colspan="3"><p style="color:maroon;">AssertionError: 61 != 22220 : Total number of records in  map.contact_main_multiple:61</p><p style="color:maroon;">Traceback (most recent call last):
+  File "C:/Users/kabharathi/Desktop/MDM/New folder (2)/MDM Automation/Execution.py", line 26, in test_CountValidationTesting
+    self.assertEqual(l2[i], l1[i], Testcase[i]+':'+str(l2[i]))
+AssertionError: 61 != 22220 : Total number of records in  map.contact_main_multiple:61
+</p>
+                                            </td>
+                                        </tr>
+                                        
+                                        <tr class='danger'>
+                                            <td class="col-xs-10">test_CountValidationTesting (i=12)</td>
+                                            <td class="col-xs-1">
+                                                <span class="label label-danger" style="display:block;width:40px;">Fail</span>
+                                            </td>
+                                            <td class="col-xs-1">
+                                                <button class="btn btn-default btn-xs">View</button>
+                                            </td>
+                                        </tr>
+                                        <tr style="display:none;">
+                                            <td class="col-xs-9" colspan="3"><p style="color:maroon;">AssertionError: 100 != 22220 : Total number of records in  map.contact_email_consent:100</p><p style="color:maroon;">Traceback (most recent call last):
+  File "C:/Users/kabharathi/Desktop/MDM/New folder (2)/MDM Automation/Execution.py", line 26, in test_CountValidationTesting
+    self.assertEqual(l2[i], l1[i], Testcase[i]+':'+str(l2[i]))
+AssertionError: 100 != 22220 : Total number of records in  map.contact_email_consent:100
+</p>
+                                            </td>
+                                        </tr>
+                                        
+                                        <tr class='danger'>
+                                            <td class="col-xs-10">test_CountValidationTesting (i=13)</td>
+                                            <td class="col-xs-1">
+                                                <span class="label label-danger" style="display:block;width:40px;">Fail</span>
+                                            </td>
+                                            <td class="col-xs-1">
+                                                <button class="btn btn-default btn-xs">View</button>
+                                            </td>
+                                        </tr>
+                                        <tr style="display:none;">
+                                            <td class="col-xs-9" colspan="3"><p style="color:maroon;">AssertionError: 478 != 22220 : Total number of records in  map.contact_note:478</p><p style="color:maroon;">Traceback (most recent call last):
+  File "C:/Users/kabharathi/Desktop/MDM/New folder (2)/MDM Automation/Execution.py", line 26, in test_CountValidationTesting
+    self.assertEqual(l2[i], l1[i], Testcase[i]+':'+str(l2[i]))
+AssertionError: 478 != 22220 : Total number of records in  map.contact_note:478
+</p>
+                                            </td>
+                                        </tr>
+                                        
+                                    </tbody>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr class='success'>
+                            <td class="col-xs-10">test_function_one</td>
+                            <td class="col-xs-1">
+                                <span class="label label-success" style="display:block;width:40px;">Pass</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3"><p>test_function_one execute.
+</p>
+                            </td>
+                        </tr>
+                        <tr class='success'>
+                            <td class="col-xs-10">test_function_two</td>
+                            <td class="col-xs-1">
+                                <span class="label label-success" style="display:block;width:40px;">Pass</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3"><p>test_fun.
+</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="3">
+                                Total: 3, Pass: 2, Fail: 1 -- Duration: 44 ms
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('td').on('click', '.btn', function(e){
+                e.preventDefault();
+                e.stopImmediatePropagation();
+                var $this = $(this);
+                var $nextRow = $this.closest('tr').next('tr');
+                $nextRow.slideToggle("fast");
+                $this.text(function(i, text){
+                    if (text === 'View') {
+                        return 'Hide';
+                    } else {
+                        return 'View';
+                    };
+                });
+            });
+        });
+    </script>
+</body>
+</html
